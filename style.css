@@ -61,20 +61,22 @@
   =============================*/
   
   .cover {
-    background: url('images/wedding-landing-cover.jpg') no-repeat 70% center/cover;
+    background: url('images/wedding-landing-cover.gif') no-repeat /*70%*/ center/cover;
     display: table;
     text-align: center;
     height: 100vh;
     width: 100%;
   }
   
-  @media (min-width: 768px) {
+      @media (min-width: 768px) {
   
-    .cover {
-      background: url('images/wedding-landing-cover.jpg') no-repeat center/cover;
-    }
+        .cover {
+          background: url('images/wedding-landing-cover.gif') no-repeat center/cover;
+          display: table;
+          text-align: center;
+        }
   
-  }
+      }
   
   .hero-text-wrapper {
     display: table-cell;
@@ -94,32 +96,32 @@
     margin-bottom: 0; /* To negate the effect of the single-direction margin declaration. */
   }
   
-  @media (min-width: 768px) {
+      @media (min-width: 768px) {
   
-    .hero-text {
-      padding: 1.25rem;
-      border-radius: 4px;
-      width: 50%;
-    }
+        .hero-text {
+          padding: 1.25rem;
+          border-radius: 4px;
+          width: 50%;
+        }
   
-    .hero-text h1 {
-      font-size: 7rem;
-    }
+        .hero-text h1 {
+          font-size: 7rem;
+        }
   
-  }
+      }
   
   .tagline {
     font-size: 1.25rem;
     letter-spacing: .15rem;
   }
   
-  @media (min-width: 768px) {
+      @media (min-width: 768px) {
   
-    .tagline {
-      text-transform: uppercase;
-    }
+        .tagline {
+          text-transform: uppercase;
+        }
   
-  }
+      }
   
   .tagline::after {
     display: block;
@@ -173,20 +175,20 @@
     background-color: #444349;
   }
   
-  @media (min-width: 768px) {
+      @media (min-width: 768px) {
   
-    .blurb {
-      display: inline-block;
-      width: 30%;
-      padding: 1.5rem;
-      margin: .5rem;
-    }
+        .blurb {
+          display: inline-block;
+          width: 30%;
+          padding: 1.5rem;
+          margin: .5rem;
+        }
   
-    .blurb::after {
-      display: none;
-    }
+        .blurb::after {
+          display: none;
+        }
   
-  }
+      }
   
   /* =============================
           PROGRAM STYLES
@@ -214,14 +216,14 @@
     letter-spacing: .025rem;
   }
   
-  @media (min-width: 768px) {
+      @media (min-width: 768px) {
   
-    .program-wrapper {
-      width: 30vw;
-      margin: 0 auto;
-    }
+        .program-wrapper {
+          width: 30vw;
+          margin: 0 auto;
+        }
   
-  }
+      }
   
   /* =============================
           GIFTS STYLES
@@ -265,25 +267,25 @@
     background-color: #d2ba87;
   }
   
-  @media (min-width: 768px) {
+      @media (min-width: 768px) {
   
-    .question-group {
-      display: inline-block;
-      width: 30%;
-      vertical-align: top;
-      padding: 1.5rem;
-      margin: .5rem;
-    }
+        .question-group {
+          display: inline-block;
+          width: 30%;
+          vertical-align: top;
+          padding: 1.5rem;
+          margin: .5rem;
+        }
   
-    .question-group::after {
-      display: none;
-    }
+        .question-group::after {
+          display: none;
+        }
   
-    .question-group h3 {
-      text-align: left;
-    }
+        .question-group h3 {
+          text-align: left;
+        }
   
-  }
+      }
   
   .question {
     font-weight: 700;
@@ -323,10 +325,10 @@
     line-height: 1.5;
   }
   
-  @media (min-width: 768px) {
+      @media (min-width: 768px) {
   
-    footer {
-      min-height: 7vh;
-    }
+        footer {
+          min-height: 7vh;
+        }
   
-  }
+      }
